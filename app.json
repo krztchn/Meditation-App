@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ZenFlow",
+    "newArchEnabled": true,
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "simplemeditation",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/simpleMeditationLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rexvel11.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fe965db2-e39b-42a6-813c-ba7648e2e754"
+      }
+    }
+  }
+}
